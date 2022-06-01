@@ -1,7 +1,7 @@
 module.exports = {
   name: 'ian',
-  description: 'Manda o Ian tomar no cú',
+  description: 'Cala a boca, Ian',
   execute(message, args = null) {
-    message.channel.send('Vai tomar no cú, Ian', { tts: true });
+    message.channel.send('Cala a boca, Ian', { tts: true });
   },
 };
